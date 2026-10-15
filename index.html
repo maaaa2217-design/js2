@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>魔王様へNGワードを送信禁止にするフォーム</title>
+</head>
+<body>
+  <main class="maincontents">
+    <h1 class="heading-main">魔王様へメッセージを</h1>
+    <h2 class="heading-message">ここでは光属性の言葉や勇者っぽい単語は使用禁止だ。
+我の心が折れるからな。</h2>
+    <h3 class="heading-ng">登録されているNGワード</h3>
+    <p class="ngwords-list">勇者, 聖剣, 光の戦士, 魔王討伐,
+  回復魔法, 祝福, 浄化, 正義, 希望</p>
+    <section class="form-wrap">
+      <form class="form-ngwords">
+        <div class="form-parts-wrap">
+          <textarea name="comment" type="text" class="form-multiline"></textarea>
+        </div>
+        <div class="form-submitbtn-wrap">
+          <input type="submit" value="魔王に献上する" class="form-submitbtn">
+        </div>
+          </form> 
+    </section>
+  </main>
+
+  <script src="js/ngwords-check.js"></script>
+</body>
+
+</html>
